@@ -7,10 +7,12 @@
 <style>
   body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-image: url('shoppingmall.jpg'); /* Replace 'shoppingmall.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
   }
   .container {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.8); /* Added transparency to the container */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
