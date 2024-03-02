@@ -21,7 +21,9 @@
   }
   h1 {
     text-align: center;
-    color: #333333;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   input[type="text"],
   input[type="password"] {
